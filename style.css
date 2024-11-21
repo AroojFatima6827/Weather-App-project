@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Universel selector*/
+* {
+    padding: 0;
+    margin: 0;
+    font-family:"Poppins", serif;
+    box-sizing: border-box;
+}
+body {
+    background-color: #2A3663;
+}
+.card {
+    background-color: #78B3CE;
+    min-height: 70vh;
+    width: 30vw;
+    margin-left: 20rem;
+    margin-top: 1rem;
+    border-radius: 1em;
+}
+.inpt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding-top: 2rem;
+    
+}
+ input {
+    height: 2.1rem;
+    width: 13rem;
+    border: none;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    font-weight: 400; 
+        
+}
+#srh {
+    background-color:white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 10px;
+    color: grey;   
+}
+.cloud {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 15px;
+    align-items: center;
+    
+}
+#cld {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;  
+} 
+.weather-display {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+} 
+#tem {
+     font-size: 2rem;
+     color: white;
+}
+#city-name {
+    font-size: 1.5rem;
+    color: white;
+    
+}
+.humidity {
+    display: flex;
+    padding-left: 2.5rem;
+    margin-top: 2rem;
+} 
+.tem1 {
+    padding-left: 1rem;
+    color: white;   
+}
+#prcnt {
+    font-size: 1.7rem;
+}
+#humdty{
+   font-size: 13px;
+}
+#humty {
+   height: 8vh;
+   width: 5vw;
+} 
+
+.wind-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    gap: 1rem; 
+    padding-left: 10rem; 
+    margin-top: -4rem;  
+    margin-left: 1.8rem; 
+}
+
+.wind img {
+    height: 9vh;
+    width: 5vw;
+}
+
+.km {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    color: white;
+}
+#pcnt {
+    font-size: 1.2rem;
+}
+
+
+
+ /* Default styles for larger screens (desktop) */
+.card {
+    background-color: #78B3CE;
+    min-height: 70vh;
+    width: 30vw;
+    margin-left: 20rem;
+    margin-top: 1rem;
+    border-radius: 1em;
+}
+
+.inpt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding-top: 2rem;
+}
+
+input {
+    height: 2.1rem;
+    width: 13rem;
+    border: none;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    font-weight: 400;
+}
+
+#srh {
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 10px;
+    color: grey;
+}
+
+.cloud {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 15px;
+    align-items: center;
+}
+
+#cld {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+
+.weather-display {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tem {
+    font-size: 2rem;
+    color: white;
+}
+
+#city-name {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.humidity {
+    display: flex;
+    padding-left: 2.5rem;
+    margin-top: 2rem;
+}
+
+.tem1 {
+    padding-left: 1rem;
+    color: white;
+}
+
+#prcnt {
+    font-size: 1.7rem;
+}
+
+#humdty {
+    font-size: 13px;
+}
+
+#humty {
+    height: 8vh;
+    width: 5vw;
+}
+
+.wind-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 10rem;
+    margin-top: -4rem;
+    margin-left: 1.8rem;
+}
+
+.wind img {
+    height: 9vh;
+    width: 5vw;
+}
+
+.km {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+}
+
+#pcnt {
+    font-size: 1.2rem;
+}
+
+
+/* Default styles */
+.card {
+    background-color: #78B3CE;
+    min-height: 70vh;
+    width: 30vw;
+    margin-left: 20rem;
+    margin-top: 1rem;
+    border-radius: 1em;
+}
+
+/* Media Query for max-width 480px (for mobile) */
+@media (max-width: 480px) {
+    .card {
+        background-color: #ff6347; /* Changing the background for mobile */
+        width: 90%;
+        margin: 1rem auto;
+    }
+}
+
+  
+
+
+

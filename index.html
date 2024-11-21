@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="card">
+          <div class="inpt">
+            
+            <input type="text" id="search" placeholder="Search city">
+            <i class="fa-solid fa-magnifying-glass" id="srh"></i>
+
+          <div class="cloud">
+        </div>
+     </div>
+     <div class="cloud">
+        <img src="weather-icon.png" id="cld">
+    </div>
+    <div class="weather-display">
+       <p id="tem"> 22 &#xb0;C</p>
+       <p id="city-name">New York</p>
+    </div>
+    <div class="humidity">
+          <img src="humidity.png" id="humty">
+        <div class="tem1">
+           <p id="prcnt">48%</p>
+           <p id="humdty">Humidity</p>
+        </div>
+        </div>
+         <div class="wind-container">
+            <div class="wind">
+              <img src="wind.png" id="wnd">
+            </div>
+            <div class="km">
+              <p id="pcnt">10.29 km/h</p>
+              <p>Wind speed</p>
+            </div>
+          </div>
+          
+    </header>
+    
+    <script src="script.js"></script>
+</body>
+</html>
